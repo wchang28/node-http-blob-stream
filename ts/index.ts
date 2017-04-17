@@ -5,5 +5,12 @@ import {Readable} from 'stream';
 export type Options = ApiCallOptions;
  
 export function get(url: string, options?: Options) : Promise<Readable> {
-	$node.get().$B()
+	return new Promise<Readable>((resolve: (value: Readable) => void, reject: (err: any) => void) => {
+		$node.get().$B(url, (err:IError, rs:Readable, headers?:{[fld:string]:string}) => {
+			if (err)
+				reject(err);
+			else
+				resolve(rs);
+		}, options);
+	});
 }
