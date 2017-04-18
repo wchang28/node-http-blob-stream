@@ -4,8 +4,7 @@
   "description": "Node HTTP/HTTPS Blob Readable Stream",
   "main": "js/index.js",
   "typings": "js/index.d.ts",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/wchang28/node-http-blob-stream.git"
@@ -19,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/es6-promise": "0.0.32",
+    "@types/node": "^6.0.69",
     "rest-api-interfaces": "git+https://github.com/wchang28/rest-api-interfaces.git",
     "rest-node": "git+https://github.com/wchang28/rest-node.git"
   }
