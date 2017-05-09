@@ -1,6 +1,6 @@
 {
   "name": "node-http-blob-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node HTTP/HTTPS Blob Readable Stream",
   "main": "js/index.js",
   "typings": "js/index.d.ts",
@@ -17,8 +17,7 @@
   "author": "Wen Chang",
   "license": "MIT",
   "dependencies": {
-    "@types/es6-promise": "0.0.32",
-    "@types/node": "^6.0.69",
+    "@types/node": "^6.0.73",
     "rest-api-interfaces": "git+https://github.com/wchang28/rest-api-interfaces.git",
     "rest-node": "git+https://github.com/wchang28/rest-node.git"
   }
