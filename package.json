@@ -1,6 +1,6 @@
 {
   "name": "node-http-blob-stream",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node HTTP/HTTPS Blob Readable Stream",
   "main": "js/index.js",
   "typings": "js/index.d.ts",
