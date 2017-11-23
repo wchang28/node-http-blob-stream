@@ -3,6 +3,7 @@ import * as $node from 'rest-node';
 import {Readable} from 'stream';
 
 export type Options = ApiCallOptions;
+export {ContentInfo, ReadableContent} from "rest-api-interfaces"; 
  
 export function get(url: string, options?: Options) : Promise<ReadableContent<Readable>> {
 	return $node.get().$B(url, {}, options)
